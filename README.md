@@ -15,9 +15,8 @@ Make a fork of this repository and clone your repo to your machine. You will nee
 After cloning your fork to your machine, run 
 
 <div style="position: relative; border-radius: 6px; overflow: hidden; border: 1px solid #e1e48;">
-  <button style="position: absolute; top: 8px; right: 8px; padding: 3px 8px; font-size: 12px; font-weight: 500; color: #24292e; background-color: #f6f8fa; border: 1px solid #d1d5da; border-radius: 4px; cursor: pointer; z-index: 1;" onclick="navigator.clipboard.writeText(document.getElementById('styled-code').textContent.trim()).then(() => { this.textContent = 'Copied!'; setTimeout(() => this.textContent = 'Copy', 2000); })">Copy</button>
-  <pre style="margin: 0; background-color: #f6f8fa; padding: 16px;"><code id="styled-code" style="font-family: SFMono-Regular, Consolas, monospace; color: #24292e;">
-    # Example command
+  <button style="position: absolute; top: 8px; right: 8px; padding: 3px 8px; font-size: 12px; font-weight: 500; color: #24292e; background-color: #f6f8fa; border: 1px solid #d1d5da; border-radius: 4px; cursor: pointer; z-index: 1;" onclick="navigator.clipboard.writeText(document.getElementById('styled-code').textContent.trim()).then(() => { this.textContent = 'Copied!'; setTimeout(() => this.textContent = 'Copy', 2000); })"></button>
+  <pre style="margin: 0; background-color: #f6f8fa; padding: 16px;"><code id="styled-code" style="font-family: SFMono-Regular, Consolas, monospace; color: #24292e;"># Example command
     echo "Hello World"</code></pre>
 </div>   
 
