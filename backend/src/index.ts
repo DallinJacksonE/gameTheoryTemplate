@@ -16,7 +16,6 @@ app.use('/api', apiRouter);
 // Initialize the WebSocket server instance and attach it to the HTTP server
 const wss = new WebSocketServer({ server });
 
-// Basic WebSocket connection handling
 wss.on('connection', (ws, _req) => {
   handleConnection(ws, _req);
 });
