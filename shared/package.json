@@ -1,15 +1,13 @@
 {
-  "name": "shared",
+  "name": "@ai-template/shared",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Shared types and interfaces for the AI game framework",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "typescript": "^6.0.3"
   }
